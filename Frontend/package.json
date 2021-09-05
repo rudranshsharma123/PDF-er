@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "make":"electron-forge make"
+  },
+  "author": "rudransh",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.2.2"
+  },
+  "dependencies": {
+    "electron-forge": "^5.2.4",
+    "electron-reload": "^2.0.0-alpha.1"
+  }
+}
